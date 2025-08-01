@@ -129,4 +129,4 @@ menuIslem(secenek: .ayarlar)
 
 ## Sonraki Ders
 
-**13 - Closures (Kapanımlar) ve Fonksiyonel Programlama Yaklaşımları**
+**11 - Closures (Kapanımlar) ve Fonksiyonel Programlama Yaklaşımları**
