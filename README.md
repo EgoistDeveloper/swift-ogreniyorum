@@ -30,7 +30,14 @@ Her ders klasöründe:
 5. [Koşullu İfadeler (if, else)](05-kosul/ders.md)
 6. [Döngüler (for, while)](06-donguler/ders.md)
 7. [Fonksiyonlar](07-fonksiyonlar/ders.md)
-8. ... (devamı gelecek)
+8. [Optional (Seçimli) Tipler](08-optional/ders.md)
+9. [Nesne Tabanlı Programlama (Class ve Struct)](09-nesne-tabanli/ders.md)
+10. [Enum (Sıralı Tipler) ve Switch Kullanımı](10-enum-ve-switch/ders.md)
+11. Closures (Kapanımlar) ve Fonksiyonel Programlama Yaklaşımları (YAKINDA)
+12. Protocol ve Delegate Kullanımı (YAKINDA)
+13. Error Handling (Hata Yönetimi) (YAKINDA)
+14. Extensions (Uzantılar) (YAKINDA)
+15. Generics (Genel Tipler) (YAKINDA)
 
 ---
 
