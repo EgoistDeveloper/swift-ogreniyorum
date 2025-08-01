@@ -22,23 +22,59 @@ if sicaklik >= 30 {
     print("Hava soğuk.")
 }
 
-// Mantıksal operatör örneği
+// Karşılaştırma operatörleri örnekleri
+let sayi1 = 5
+let sayi2 = 10
+
+print(sayi1 == sayi2)  // sayi1, sayi2'ye eşit mi? Cevap: Hayır, o zaman çıktı false döner
+print(sayi1 != sayi2)  // sayi1, sayi2'ye eşit değil mi? Cevap: Evet, o zaman çıktı true döner
+print(sayi1 > sayi2)   // sayi1, sayi2'den büyük mü? Cevap: Hayır, o zaman çıktı false döner
+print(sayi1 < sayi2)   // sayi1, sayi2'den küçük mü? Cevap: Evet, o zaman çıktı true döner
+print(sayi1 >= sayi2)  // sayi1, sayi2'den büyük veya eşit mi? Cevap: Hayır, o zaman çıktı false döner
+print(sayi1 <= sayi2)  // sayi1, sayi2'den küçük veya eşit mi? Cevap: Evet, o zaman çıktı true döner
+
+// Karşılaştırma operatörleri ile if-else örneği
+let x = 7
+let y = 12
+
+// x, y'den küçük mü kontrolü
+if x < y {
+    print("x, y'den küçüktür.")
+} else {
+    print("x, y'den küçük değildir.")
+}
+
+// Mantıksal operatörlerle örnekler
+
 let yas = 17
 let veliIzniVar = true
 
+// En az bir koşul doğruysa etkinliğe katılabilirsin
 if yas >= 18 || veliIzniVar {
     print("Etkinliğe katılabilirsin.")
 } else {
     print("Etkinliğe katılamazsın.")
 }
 
-// Karşılaştırma operatörleri örnekleri
-let sayi1 = 5
-let sayi2 = 10
+let ehliyetVar = true
+let yas2 = 20
 
-print(sayi1 == sayi2) // false
-print(sayi1 != sayi2) // true
-print(sayi1 < sayi2)  // true
+// 18 yaşında veya daha büyük ve ehliyeti varsa araç kullanabilir
+if yas2 >= 18 && ehliyetVar {
+    print("Araç kullanabilirsiniz.")
+} else {
+    print("Araç kullanamazsınız.")
+}
+
+let puan2 = 55
+let devamsizlik = false
+
+// puan 50 veya üstüyse ya da devamsızlık yoksa geçer
+if puan2 >= 50 || devamsizlik == false {
+    print("Sınıfı geçtin.")
+} else {
+    print("Sınıfta kaldın.")
+}
 
 // switch-case ile gün ismi yazdırma
 let gunNo = 5
