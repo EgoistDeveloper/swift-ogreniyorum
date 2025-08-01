@@ -23,15 +23,15 @@ Her ders klasöründe:
 
 ### Ders Listesi
 
-1. [Swift’e Giriş ve Yorum Satırları](01-swift-giris/ders.md)
-2. [Değişkenler ve Sabitler](02-degiskenler/ders.md)
-3. [Veri Tipleri](03-veri-tipleri/ders.md)
-4. [Operatörler](04-operatorler/ders.md)
-5. [Koşullu İfadeler (if, else)](05-kosul/ders.md)
-6. [Döngüler (for, while)](06-donguler/ders.md)
+1. [Swift’e Giriş](01-swift-giris/ders.md)
+2. [Değişkenler ve Sabitler](02-degiskenler-ve-sabitler/ders.md)
+3. [Operatörler](03-operatorler/ders.md)
+4. [Koşullu İfadeler](04-kosullu-ifadeler/ders.md)
+5. [Döngüler](05-donguler/ders.md)
+6. [Koleksiyonlar](06-koleksiyonlar/ders.md)
 7. [Fonksiyonlar](07-fonksiyonlar/ders.md)
 8. [Optional (Seçimli) Tipler](08-optional/ders.md)
-9. [Nesne Tabanlı Programlama (Class ve Struct)](09-nesne-tabanli/ders.md)
+9. [Nesne Tabanlı Programlama](09-nesne-tabanli/ders.md)
 10. [Enum (Sıralı Tipler) ve Switch Kullanımı](10-enum-ve-switch/ders.md)
 11. Closures (Kapanımlar) ve Fonksiyonel Programlama Yaklaşımları (YAKINDA)
 12. Protocol ve Delegate Kullanımı (YAKINDA)
