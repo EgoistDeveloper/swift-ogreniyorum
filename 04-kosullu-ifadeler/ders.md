@@ -46,6 +46,47 @@ Koşullarda sıkça kullanılan karşılaştırma operatörleri şunlardır:
 - `>=` : Büyük veya eşit mi?
 - `<=` : Küçük veya eşit mi?
 
+Aşağıda örnekleri açıklamalı olarak görebilirsiniz:
+
+```swift
+let a = 5
+let b = 10
+
+print(a == b)  // a, b'ye eşit mi? Cevap: Hayır, o zaman çıktı false döner
+print(a != b)  // a, b'ye eşit değil mi? Cevap: Evet, o zaman çıktı true döner
+print(a > b)   // a, b'den büyük mü? Cevap: Hayır, o zaman çıktı false döner
+print(a < b)   // a, b'den küçük mü? Cevap: Evet, o zaman çıktı true döner
+print(a >= b)  // a, b'den büyük veya eşit mi? Cevap: Hayır, o zaman çıktı false döner
+print(a <= b)  // a, b'den küçük veya eşit mi? Cevap: Evet, o zaman çıktı true döner
+```
+
+Karşılaştırma operatörleri genellikle if-else yapılarında kullanılır. Örneğin:
+
+```swift
+let x = 7
+let y = 12
+
+// x, y'den küçük mü kontrolü
+if x < y {
+    print("x, y'den küçüktür.")
+} else {
+    print("x, y'den küçük değildir.")
+}
+```
+
+veya
+
+```swift
+let yas = 18
+
+// 18 yaşında veya daha büyük mü kontrolü
+if yas >= 18 {
+    print("Reşitsiniz.")
+} else {
+    print("Reşit değilsiniz.")
+}
+```
+
 ## 3. Mantıksal Operatörler
 
 Birden fazla koşulu birleştirmek için mantıksal operatörler kullanılır:
@@ -54,14 +95,41 @@ Birden fazla koşulu birleştirmek için mantıksal operatörler kullanılır:
 - `||` : veya (en az bir koşul doğruysa)
 - `!`  : değil (koşulun tersini alır)
 
+Önce operatörlerin basit kullanımına bakalım:
+
+```swift
+let a = true
+let b = false
+
+print(a && b)  // a ve b doğru mu? Cevap: Hayır, o zaman çıktı false döner
+print(a || b)  // a veya b doğru mu? Cevap: Evet, o zaman çıktı true döner
+print(!a)      // a'nın tersi nedir? Cevap: false, o zaman çıktı false döner
+print(!b)      // b'nin tersi nedir? Cevap: true, o zaman çıktı true döner
+```
+
+Mantıksal operatörler genellikle if-else ile birlikte kullanılır. Örneğin:
+
 ```swift
 let yas = 20
 let ehliyetVar = true
 
+// 18 yaşında veya daha büyük ve ehliyeti varsa araç kullanabilir
 if yas >= 18 && ehliyetVar {
     print("Araç kullanabilirsiniz.")
 } else {
     print("Araç kullanamazsınız.")
+}
+```
+
+```swift
+let puan = 45
+let devamsizlik = false
+
+// puan 50 veya üstüyse ya da devamsızlık yoksa geçer
+if puan >= 50 || devamsizlik == false {
+    print("Sınıfı geçtin.")
+} else {
+    print("Sınıfta kaldın.")
 }
 ```
 
