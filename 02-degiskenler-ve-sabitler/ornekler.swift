@@ -1,37 +1,45 @@
-// 02 - Değişkenler ve Sabitler
 //
-// Swift dilinde verileri saklamak için değişkenler (var) ve sabitler (let) kullanılır.
+// Swift'te verilerin türü (tipi) çok önemlidir. Her verinin bir tipi (Int, Double, String, Bool, vs.) vardır.
+// Swift, tip güvenli bir dildir; bu nedenle yanlış tipte veri ataması yaparsak hata alırız.
 //
-// - Değişkenler (var): İçeriği sonradan değiştirilebilir.
-// - Sabitler (let): Tanımlandıktan sonra değeri değiştirilemez.
+// Temel türler:
+// - Int: Tam sayılar için kullanılır.
+// - Double: Ondalıklı (küsuratlı) sayılar için kullanılır.
+// - String: Metin (yazı) ifadeleri için kullanılır.
+// - Bool: true/false (doğru/yanlış) değerleri için kullanılır.
 //
-// Aşağıdaki örneklerle bunu inceleyelim:
+// 02 - Değişkenler ve Sabitler (Açıklamalı Örnekler)
 
 import Foundation
 
-// Bir değişken tanımlayalım
-var isim = "Arzu"
-print(isim) // Çıktı: Arzu
-
-// Değişkenin değerini değiştirebiliriz
-isim = "Can"
-print(isim) // Çıktı: Can
-
-// Bir sabit tanımlayalım
-let dogumYili = 1995
-print(dogumYili) // Çıktı: 1995
-
-// Sabitin değerini değiştirmeye çalışırsak hata alırız:
-// dogumYili = 2000 // HATA: let ile tanımlanan sabitlerin değeri değiştirilemez.
-
-
-// Temel veri tipleri örnekleri
-var ad: String = "Elif"
-var yas: Int = 25
-let pi: Double = 3.14
+// Açık tip belirterek değişken ve sabit tanımlama
+var yas: Int = 22
+let isim: String = "Ayşe"
 var aktifMi: Bool = true
+let pi: Double = 3.1415
 
-print("Ad:", ad)
+// Tip çıkarımı ile tanımlama
+var sehir = "İstanbul"  // String
+let puan = 90           // Int
+var derece = 36.5       // Double
+let basarili = true     // Bool
+
+// Çoklu tanımlama (farklı tiplerle)
+var x = 10, y: Int = 20, z = 0
+let boy: Double = 1.75, kilo = 60.0
+
 print("Yaş:", yas)
-print("Pi:", pi)
+print("İsim:", isim)
 print("Aktif mi?:", aktifMi)
+print("Pi:", pi)
+print("Şehir:", sehir)
+print("Puan:", puan)
+print("Derece:", derece)
+print("Başarılı mı?:", basarili)
+print("x:", x, "y:", y, "z:", z)
+print("Boy:", boy, "Kilo:", kilo)
+
+// Opsiyonel değişken örneği
+var telefonNumarasi: String? = nil
+telefonNumarasi = "0555 123 45 67"
+print("Telefon Numarası:", telefonNumarasi ?? "Tanımsız")
