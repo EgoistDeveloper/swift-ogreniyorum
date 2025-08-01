@@ -1,63 +1,90 @@
 # 02 - Değişkenler ve Sabitler
 
-Swift dilinde verileri saklamak için **değişkenler** (`var`) ve **sabitler** (`let`) kullanılır. Bu kavramları iyi anlamak, kodunuzun hem okunabilirliğini hem de güvenliğini artırır.
+Swift’te verileri saklamak için **değişkenler** (`var`) ve **sabitler** (`let`) kullanılır.
 
 ---
 
-## Değişkenler (`var`)
+## Değişkenler (var) ve Sabitler (let)
 
-- Değişkenler, içeriği sonradan değiştirilebilen veri saklama alanlarıdır.
-- Bir değişken tanımladıktan sonra istediğiniz kadar yeni değer atayabilirsiniz.
+Değeri değişebilen veri tutuculara **değişken**, bir kez atanıp değiştirilemeyenlere **sabit** denir.
 
-**Örnek:**
 ```swift
-var isim = "Arzu"
-print(isim) // Çıktı: Arzu
+var isim = "Ahmet"
+isim = "Mehmet" // Değeri değiştirilebilir
 
-isim = "Can"
-print(isim) // Çıktı: Can
+let pi = 3.14
+// pi = 3.14159 // Hata! Sabitlerin değeri değiştirilemez.
 ```
 
 ---
 
-## Sabitler (`let`)
+## Temel Veri Tipleri ve Tip Belirtme
 
-- Sabitler, tanımlandıktan sonra değeri değiştirilemeyen veri saklama alanlarıdır.
-- Sabitlerin değerini değiştirmeye çalışırsanız hata alırsınız.
+Swift tip güvenli bir dildir. Değişken veya sabit tanımlarken tipini açıkça belirtebilirsiniz:
 
-**Örnek:**
 ```swift
-let dogumYili = 1995
-print(dogumYili) // Çıktı: 1995
+var yas: Int = 25        // Int (tam sayı)
+let isim: String = "Zeynep" // String (metin)
+var aktifMi: Bool = true // Bool (doğru/yanlış)
+let oran: Double = 2.5   // Double (ondalıklı sayı)
+```
 
-// dogumYili = 2000 // HATA: let ile tanımlanan sabitlerin değeri değiştirilemez.
+Ayrıca Swift tipi, atanan değerden otomatik olarak da çıkarabilir (type inference):
+
+```swift
+var sehir = "İstanbul"   // String olarak algılar
+let puan = 90            // Int olarak algılar
+var derece = 36.5        // Double olarak algılar
+let basarili = true      // Bool olarak algılar
 ```
 
 ---
 
-## Temel Veri Tipleri
+## Tip Güvenliği
 
-- **String:** Metin değerleri (örn: "Elif")
-- **Int:** Tam sayılar (örn: `25`)
-- **Double:** Ondalıklı sayılar (örn: `3.14`)
-- **Bool:** Doğru/Yanlış değerleri (`true` veya `false`)
+Swift, yanlış tipte değer atanmasına izin vermez:
 
-**Örnekler:**
 ```swift
-var ad: String = "Elif"
-var yas: Int = 25
-let pi: Double = 3.14
-var aktifMi: Bool = true
+var ad: String = "Ayşe"
+// ad = 22 // Hata! String yerine Int atanamaz.
 ```
 
 ---
 
-## Egzersiz
+## Çoklu Tanımlama
 
-1. Kendi adınızı bir değişkene, doğum yılınızı bir sabite atayın ve her ikisini de ekrana yazdırın.
-2. Bir değişkenin değerini değiştirerek çıktısını gözlemleyin.
-3. Bir Boolean değişken tanımlayın ve onu ekrana yazdırın.
+Aynı satırda birden fazla değişken veya sabit tanımlanabilir:
+
+```swift
+var x = 5, y: Int = 10, z = 0
+let boy: Double = 1.80, kilo = 75.0
+```
 
 ---
 
-Bir sonraki derste temel operatörleri öğreneceğiz.
+## Sabitlerin Avantajları
+
+- Kodun daha güvenli ve okunabilir olmasını sağlar.
+- İstemeden değer değişikliğini engeller.
+
+---
+
+## Kısa Not: Opsiyoneller (Optionals)
+
+Bir değişkenin değerinin olup olmadığını göstermek için kullanılır.
+
+```swift
+var telefonNumarasi: String? = nil
+telefonNumarasi = "555-1234"
+```
+---
+
+## Egzersizler
+
+1. Farklı tiplerde üç değişken ve iki sabit tanımlayın.
+2. Değişkeninizin ve sabitinizin değerini değiştirmeye çalışın. Ne olur?
+3. Tip belirterek bir değişken tanımlayın ve değerini ekrana yazdırın.
+
+---
+
+Bir sonraki derste operatörler konusuna geçeceğiz.
