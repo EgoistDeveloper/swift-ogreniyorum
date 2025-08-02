@@ -52,6 +52,7 @@ Her ders klasöründe:
 20. [Özellik Gözlemcileri (Property Observers: willSet, didSet)](20-property-observers/ders.md)
 21. [Tembel Özellikler (Lazy Properties)](21-lazy-properties/ders.md)
 22. [Type Casting (as, as?, as!) – Swift’te Tip Dönüştürme](22-type-casting/ders.md)
+23. [Tuple (Demetler) – Swift’te Demetler](23-tuples/ders.md)
 
 ---
 
