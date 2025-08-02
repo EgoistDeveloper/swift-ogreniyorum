@@ -86,5 +86,3 @@ telefonNumarasi = "555-1234"
 3. Tip belirterek bir değişken tanımlayın ve değerini ekrana yazdırın.
 
 ---
-
-Bir sonraki derste operatörler konusuna geçeceğiz.
