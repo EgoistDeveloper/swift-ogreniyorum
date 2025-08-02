@@ -56,6 +56,7 @@ Her ders klasöründe:
 24. [Struct vs. Class – Swift’te Karşılaştırma](24-struct-vs-class/ders.md)
 25. [Subscripts – Swift’te Alt İndeksler](25-subscripts/ders.md)
 26. [Computed Properties – Swift’te Hesaplanan Özellikler](26-computed-properties/ders.md)
+27. [Static & Class Members – Swift’te Statik ve Sınıf Üyeleri](27-static-class-members/ders.md)
 ---
 
 ## Sıkça Sorulanlar
