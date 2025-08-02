@@ -57,6 +57,7 @@ Her ders klasöründe:
 25. [Subscripts – Swift’te Alt İndeksler](25-subscripts/ders.md)
 26. [Computed Properties – Swift’te Hesaplanan Özellikler](26-computed-properties/ders.md)
 27. [Static & Class Members – Swift’te Statik ve Sınıf Üyeleri](27-static-class-members/ders.md)
+28. [Concurrency & Asynchronous Programming (async/await, DispatchQueue)](28-concurrency/ders.md)
 ---
 
 ## Sıkça Sorulanlar
