@@ -60,7 +60,7 @@ Her ders klasöründe:
 28. [Concurrency & Asynchronous Programming (async/await, DispatchQueue)](28-concurrency/ders.md)
 29. [Mutating Functions – Yapılarda Değiştirilebilir Fonksiyonlar](29-mutating/ders.md)
 30. [Pattern Matching – Desen Eşleme](30-pattern-matching/ders.md)
-31. [Error Propagation ve Custom Error Handling](31-custom-error-handling/ders.md)
+31. [Error Propagation ve Custom Error Handling](31-error-handling/ders.md)
 ---
 
 ## Sıkça Sorulanlar
