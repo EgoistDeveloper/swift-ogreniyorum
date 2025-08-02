@@ -50,6 +50,7 @@ Her ders klasöründe:
 18. [Erişim Kontrolü (Access Control)](18-access-control-erisim-kontrolu/ders.md)
 19. [Bellek Yönetimi & ARC (Memory Management & ARC)](19-memory-management-arc/ders.md)
 20. [Özellik Gözlemcileri (Property Observers: willSet, didSet)](20-property-observers/ders.md)
+21. [Tembel Özellikler (Lazy Properties)](21-lazy-properties/ders.md)
 
 
 ---
