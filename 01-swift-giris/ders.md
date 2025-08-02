@@ -29,4 +29,3 @@ Tek satırlık yorum:
 - Çok satırlı bir yorum ile kodunuzu açıklayın.
 
 ---
-Sonraki derste değişkenler ve sabitleri öğreneceğiz.
