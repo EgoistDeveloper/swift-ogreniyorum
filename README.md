@@ -28,16 +28,14 @@ Her ders klasöründe:
 3. [Operatörler](03-operatorler/ders.md)
 4. [Koşullu İfadeler](04-kosullu-ifadeler/ders.md)
 5. [Döngüler](05-donguler/ders.md)
-6. [Koleksiyonlar](06-koleksiyonlar/ders.md)
+6. [Koleksiyonlar (Array, Dictionary, Set)](06-koleksiyonlar/ders.md)
 7. [Fonksiyonlar](07-fonksiyonlar/ders.md)
 8. [Optional (Seçimli) Tipler](08-optional/ders.md)
-9. [Nesne Tabanlı Programlama](09-nesne-tabanli/ders.md)
+9. [Nesne Tabanlı Programlama (Sınıflar ve Struct)](09-nesne-tabanli/ders.md)
 10. [Enum (Sıralı Tipler) ve Switch Kullanımı](10-enum-ve-switch/ders.md)
-11. Closures (Kapanımlar) ve Fonksiyonel Programlama Yaklaşımları (YAKINDA)
-12. Protocol ve Delegate Kullanımı (YAKINDA)
-13. Error Handling (Hata Yönetimi) (YAKINDA)
-14. Extensions (Uzantılar) (YAKINDA)
-15. Generics (Genel Tipler) (YAKINDA)
+11. [Closures (Kapanımlar) ve Fonksiyonel Programlama Yaklaşımları](11-closures-ve-fonksiyonel/ders.md)
+12. [Protocol ve Delegate Kullanımı](12-protocol-ve-delegate/ders.md)
+13. [Error Handling (Hata Yönetimi)](13-error-handling/ders.md)
 
 ---
 
