@@ -54,7 +54,7 @@ Her ders klasöründe:
 22. [Type Casting (as, as?, as!) – Swift’te Tip Dönüştürme](22-type-casting/ders.md)
 23. [Tuple (Demetler) – Swift’te Demetler](23-tuples/ders.md)
 24. [Struct vs. Class – Swift’te Karşılaştırma](24-struct-vs-class/ders.md)
-25. 
+25. [Subscripts – Swift’te Alt İndeksler](25-subscripts/ders.md)
 ---
 
 ## Sıkça Sorulanlar
