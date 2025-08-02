@@ -51,7 +51,7 @@ Her ders klasöründe:
 19. [Bellek Yönetimi & ARC (Memory Management & ARC)](19-memory-management-arc/ders.md)
 20. [Özellik Gözlemcileri (Property Observers: willSet, didSet)](20-property-observers/ders.md)
 21. [Tembel Özellikler (Lazy Properties)](21-lazy-properties/ders.md)
-
+22. [Type Casting (as, as?, as!) – Swift’te Tip Dönüştürme](22-type-casting/ders.md)
 
 ---
 
