@@ -63,6 +63,8 @@ Her ders klasöründe:
 31. [Error Propagation ve Custom Error Handling](31-error-handling/ders.md)
 32. [SwiftUI ve UIKit ile Uygulama Geliştirme](32-swiftui-uikit-gelistirme/ders.md)
 33. [Unit Testing ve Test Driven Development (TDD)](33-unit-testing-tdd/ders.md)
+34. [Package Manager ve Modüler Kod](34-package-manager-moduler-kod/ders.md)
+35. [Custom Operators (Özel Operatörler)](35-custom-operators/ders.md)
 ---
 
 ## Sıkça Sorulanlar
