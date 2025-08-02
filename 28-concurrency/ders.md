@@ -1,28 +1,72 @@
-# Concurrency & Asynchronous Programming
+# Concurrency & Asynchronous Programming (async/await, DispatchQueue)
 
-Concurrency is the ability of a program to make progress on more than one task at a time. In Swift, we have several ways to deal with concurrency, including async/await and DispatchQueue.
+Swift’te modern eşzamanlılık (concurrency) desteği sayesinde kodunuzu daha verimli ve güvenli şekilde paralel olarak çalıştırabilirsiniz. Özellikle `async/await` anahtar kelimeleri ve klasik `DispatchQueue` ile asenkron işlemler kolayca gerçekleştirilebilir.
 
-## async/await
+---
 
-The async/await syntax allows you to write asynchronous code that looks synchronous. This makes it easier to read and understand.
+## 📌 async/await Nedir?
+- `async` fonksiyonlar, zaman alan işlemleri beklerken kodun diğer bölümlerinin çalışmasına izin verir.
+- `await` ile bir asenkron fonksiyonun tamamlanmasını beklersiniz.
 
-### Example:
 ```swift
-func fetchData() async throws -> Data {
-    let url = URL(string: "https://api.example.com/data")!
-    let (data, _) = try await URLSession.shared.data(from: url)
-    return data
+func uzunSurenIslem() async -> String {
+    // Ağ isteği, dosya okuma gibi zaman alan işlemler
+    return "Sonuç"
+}
+
+Task {
+    let sonuc = await uzunSurenIslem()
+    print(sonuc)
 }
 ```
 
-## DispatchQueue
+---
 
-DispatchQueue is a powerful tool for managing concurrent tasks. You can create custom queues or use the global queues provided by the system.
+## 📌 DispatchQueue ile Asenkron İşlemler
 
-### Example:
+`DispatchQueue`, GCD (Grand Central Dispatch) tabanlı klasik asenkron programlamadır.
+
 ```swift
-let queue = DispatchQueue(label: "com.example.myqueue")
-queue.async {
-    // Perform task in the background
+DispatchQueue.global().async {
+    // Arka planda çalışacak kod
+    print("Background işlem")
+    DispatchQueue.main.async {
+        // Ana thread’e dön
+        print("Ana thread")
+    }
 }
 ```
+
+---
+
+## 📌 Eşzamanlılık ve Performans
+
+- Asenkron işlemler UI’nin donmasını engeller.
+- Eşzamanlı kod, daha hızlı ve verimli çalışabilir.
+
+---
+
+## 📌 async/await ile Hata Yönetimi
+
+```swift
+func veriAl() async throws -> String {
+    throw NSError(domain: \"Hata\", code: 1)
+}
+
+Task {
+    do {
+        let veri = try await veriAl()
+        print(veri)
+    } catch {
+        print(\"Hata oluştu: \\(error)\")
+    }
+}
+```
+
+---
+
+## 📌 Kısa Notlar
+
+- `Task { ... }` ile yeni asenkron görev başlatılır.
+- Asenkron işlemler UI projelerinde özellikle önemlidir.
+- Klasik yöntem: `DispatchQueue`; Modern yöntem: `async/await`.
