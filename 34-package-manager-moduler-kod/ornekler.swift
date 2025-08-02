@@ -1,4 +1,22 @@
-// Örnek 1: Basit bir package oluşturma
-import Foundation
+// Sources/Matematik/Matematik.swift
+public struct Matematik {
+    public static func topla(_ a: Int, _ b: Int) -> Int {
+        return a + b
+    }
+    public static func carp(_ a: Int, _ b: Int) -> Int {
+        return a * b
+    }
+}
 
-print("Hello, Package Manager!")
+// Tests/MatematikTests/MatematikTests.swift
+import XCTest
+@testable import Matematik
+
+final class MatematikTests: XCTestCase {
+    func testTopla() {
+        XCTAssertEqual(Matematik.topla(2, 3), 5)
+    }
+    func testCarp() {
+        XCTAssertEqual(Matematik.carp(2, 3), 6)
+    }
+}
