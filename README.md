@@ -23,6 +23,10 @@ Her ders klasöründe:
 
 ### Ders Listesi
 
+---
+
+## Temel Dersler
+
 1. [Swift’e Giriş](01-swift-giris/ders.md)
 2. [Değişkenler ve Sabitler](02-degiskenler-ve-sabitler/ders.md)
 3. [Operatörler](03-operatorler/ders.md)
@@ -31,6 +35,9 @@ Her ders klasöründe:
 6. [Koleksiyonlar (Array, Dictionary, Set)](06-koleksiyonlar/ders.md)
 7. [Fonksiyonlar](07-fonksiyonlar/ders.md)
 8. [Optional (Seçimli) Tipler](08-optional/ders.md)
+
+## Orta Seviye Dersler
+
 9. [Nesne Tabanlı Programlama (Sınıflar ve Struct)](09-nesne-tabanli/ders.md)
 10. [Enum (Sıralı Tipler) ve Switch Kullanımı](10-enum-ve-switch/ders.md)
 11. [Closures (Kapanımlar) ve Fonksiyonel Programlama Yaklaşımları](11-closures-ve-fonksiyonel/ders.md)
