@@ -43,6 +43,8 @@ Her ders klasöründe:
 11. [Closures (Kapanımlar) ve Fonksiyonel Programlama Yaklaşımları](11-closures-ve-fonksiyonel/ders.md)
 12. [Protocol ve Delegate Kullanımı](12-protocol-ve-delegate/ders.md)
 13. [Error Handling (Hata Yönetimi)](13-error-handling/ders.md)
+14. [Guard ve Optional Binding](14-guard-ve-optional-binding/ders.md)
+15. [Generics (Jenerikler)](15-generics-jenerikler/ders.md)
 
 ---
 
