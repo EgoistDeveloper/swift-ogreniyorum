@@ -39,13 +39,14 @@ Her ders klasöründe:
 ## Orta Seviye Dersler
 
 9. [Nesne Tabanlı Programlama (Sınıflar ve Struct)](09-nesne-tabanli/ders.md)
-10. [Enum (Sıralı Tipler) ve Switch Kullanımı](10-enum-ve-switch/ders.md)
+10. [Properties (Özellikler)](10-properties-ozellikler/ders.md)
 11. [Enum (Sıralı Tipler) ve Switch Kullanımı](11-enum-ve-switch/ders.md)  
 12. [Closures (Kapanımlar) ve Fonksiyonel Programlama Yaklaşımları](12-closures-ve-fonksiyonel/ders.md)  
 13. [Protocol ve Delegate Kullanımı](13-protocol-ve-delegate/ders.md)  
 14. [Error Handling (Hata Yönetimi)](14-error-handling/ders.md)  
 15. [Guard ve Optional Binding](15-guard-ve-optional-binding/ders.md)  
 16. [Generics (Jenerikler)](16-generics-jenerikler/ders.md)
+17. [Extensions (Uzantılar)](17-extensions-uzantilar/ders.md)
 
 
 ---
