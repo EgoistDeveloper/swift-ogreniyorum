@@ -55,6 +55,7 @@ Her ders klasöründe:
 23. [Tuple (Demetler) – Swift’te Demetler](23-tuples/ders.md)
 24. [Struct vs. Class – Swift’te Karşılaştırma](24-struct-vs-class/ders.md)
 25. [Subscripts – Swift’te Alt İndeksler](25-subscripts/ders.md)
+26. [Computed Properties – Swift’te Hesaplanan Özellikler](26-computed-properties/ders.md)
 ---
 
 ## Sıkça Sorulanlar
