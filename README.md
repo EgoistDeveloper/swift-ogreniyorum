@@ -47,6 +47,7 @@ Her ders klasöründe:
 15. [Guard ve Optional Binding](15-guard-ve-optional-binding/ders.md)  
 16. [Generics (Jenerikler)](16-generics-jenerikler/ders.md)
 17. [Extensions (Uzantılar)](17-extensions-uzantilar/ders.md)
+18. [Access Control (Erişim Kontrolü)](18-access-control-erisim-kontrolu/ders.md)
 
 
 ---
