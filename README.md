@@ -27,27 +27,28 @@ Her ders klasöründe:
 
 ## Temel Dersler
 
-1. [Swift’e Giriş](01-swift-giris/ders.md)
-2. [Değişkenler ve Sabitler](02-degiskenler-ve-sabitler/ders.md)
-3. [Operatörler](03-operatorler/ders.md)
-4. [Koşullu İfadeler](04-kosullu-ifadeler/ders.md)
-5. [Döngüler](05-donguler/ders.md)
-6. [Koleksiyonlar (Array, Dictionary, Set)](06-koleksiyonlar/ders.md)
-7. [Fonksiyonlar](07-fonksiyonlar/ders.md)
-8. [Optional (Seçimli) Tipler](08-optional/ders.md)
+1. [Swift’e Giriş (Introduction to Swift)](01-swift-giris/ders.md)
+2. [Değişkenler ve Sabitler (Variables and Constants)](02-degiskenler-ve-sabitler/ders.md)
+3. [Operatörler (Operators)](03-operatorler/ders.md)
+4. [Koşullu İfadeler (Conditional Statements)](04-kosullu-ifadeler/ders.md)
+5. [Döngüler (Loops)](05-donguler/ders.md)
+6. [Koleksiyonlar: Dizi, Sözlük, Küme (Collections: Array, Dictionary, Set)](06-koleksiyonlar/ders.md)
+7. [Fonksiyonlar (Functions)](07-fonksiyonlar/ders.md)
+8. [Seçimli Tipler (Optional Types)](08-optional/ders.md)
 
 ## Orta Seviye Dersler
 
-9. [Nesne Tabanlı Programlama (Sınıflar ve Struct)](09-nesne-tabanli/ders.md)
-10. [Properties (Özellikler)](10-properties-ozellikler/ders.md)
-11. [Enum (Sıralı Tipler) ve Switch Kullanımı](11-enum-ve-switch/ders.md)  
-12. [Closures (Kapanımlar) ve Fonksiyonel Programlama Yaklaşımları](12-closures-ve-fonksiyonel/ders.md)  
-13. [Protocol ve Delegate Kullanımı](13-protocol-ve-delegate/ders.md)  
-14. [Error Handling (Hata Yönetimi)](14-error-handling/ders.md)  
-15. [Guard ve Optional Binding](15-guard-ve-optional-binding/ders.md)  
-16. [Generics (Jenerikler)](16-generics-jenerikler/ders.md)
-17. [Extensions (Uzantılar)](17-extensions-uzantilar/ders.md)
-18. [Access Control (Erişim Kontrolü)](18-access-control-erisim-kontrolu/ders.md)
+9. [Nesne Tabanlı Programlama: Sınıflar ve Struct (Object-Oriented Programming: Classes and Structs)](09-nesne-tabanli/ders.md)
+10. [Özellikler (Properties)](10-properties-ozellikler/ders.md)
+11. [Sıralı Tipler (Enum) ve Switch Kullanımı (Enums and Switch Usage)](11-enum-ve-switch/ders.md)
+12. [Kapanımlar ve Fonksiyonel Programlama Yaklaşımları (Closures and Functional Programming Approaches)](12-closures-ve-fonksiyonel/ders.md)
+13. [Protokol ve Delege Kullanımı (Protocol and Delegate Usage)](13-protocol-ve-delegate/ders.md)
+14. [Hata Yönetimi (Error Handling)](14-error-handling/ders.md)
+15. [Guard ve Optional Binding (Guard and Optional Binding)](15-guard-ve-optional-binding/ders.md)
+16. [Jenerikler (Generics)](16-generics-jenerikler/ders.md)
+17. [Uzantılar (Extensions)](17-extensions-uzantilar/ders.md)
+18. [Erişim Kontrolü (Access Control)](18-access-control-erisim-kontrolu/ders.md)
+19. [Bellek Yönetimi & ARC (Memory Management & ARC)](19-memory-management-arc/ders.md)
 
 
 ---
