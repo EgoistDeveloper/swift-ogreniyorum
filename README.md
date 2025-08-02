@@ -61,6 +61,8 @@ Her ders klasöründe:
 29. [Mutating Functions – Yapılarda Değiştirilebilir Fonksiyonlar](29-mutating/ders.md)
 30. [Pattern Matching – Desen Eşleme](30-pattern-matching/ders.md)
 31. [Error Propagation ve Custom Error Handling](31-error-handling/ders.md)
+32. [SwiftUI ve UIKit ile Uygulama Geliştirme](32-swiftui-uikit-gelistirme/ders.md)
+33. [Unit Testing ve Test Driven Development (TDD)](33-unit-testing-tdd/ders.md)
 ---
 
 ## Sıkça Sorulanlar
