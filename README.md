@@ -59,6 +59,7 @@ Her ders klasöründe:
 27. [Static & Class Members – Swift’te Statik ve Sınıf Üyeleri](27-static-class-members/ders.md)
 28. [Concurrency & Asynchronous Programming (async/await, DispatchQueue)](28-concurrency/ders.md)
 29. [Mutating Functions – Yapılarda Değiştirilebilir Fonksiyonlar](29-mutating/ders.md)
+30. [Pattern Matching – Desen Eşleme](30-pattern-matching/ders.md)
 ---
 
 ## Sıkça Sorulanlar
