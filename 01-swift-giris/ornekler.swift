@@ -1,5 +1,8 @@
 // Merhaba Swift!
 
+// En basit örnek - sadece "merhaba" yazdıralım
+print("merhaba")
+
 // Bu bir tek satırlık yorumdur
 print("Merhaba, dünya!")
 

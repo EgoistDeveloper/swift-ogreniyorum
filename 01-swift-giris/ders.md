@@ -23,6 +23,13 @@ Tek satırlık yorum:
  */
 ```
 
+## İlk Örnek
+
+En basit başlangıç:
+```swift
+print("merhaba")
+```
+
 ## Egzersiz
 
 - Kendi adınızı ekrana yazdıran bir Swift kodunu, yanında bir yorum satırı ile birlikte yazın.
